@@ -1,0 +1,105 @@
+.main{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  width: 960px;
+  margin: auto;
+  border-style: solid;
+  border-color: #dddddd;
+  background-color: white;
+}
+
+.main-container{
+  background-image: url("../images/crossline-dots/crossline-dots.png");
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.name{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 45px;
+  color: white;
+  background-color: #4aaaa5;
+  width: 350px;
+  height: 80px;
+  text-align: center;
+  line-height: 85px;
+  text-decoration: none;
+  margin-left: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: white;
+}
+
+nav a{
+  line-height: 18px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+nav a:visited{
+  color: #777777;
+}
+
+.t1{
+  border-right: 1px solid #777777;
+  height: 16px;
+}
+
+.t2{
+  border-right: 1px solid #777777;
+  height: 16px;
+}
+
+.master-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-heading{
+  color: #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  width: 960px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+  
+.center{
+  display: flex;
+  justify-content: center;
+}  
+
+p{
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 2%;
+}  
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.footer {
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+  color: white;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+}

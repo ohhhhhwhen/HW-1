@@ -1,0 +1,40 @@
+.port-img {
+	position: relative;
+	float: left;
+	width: 274px;
+	margin: 20px 0 25px;
+	overflow: auto;
+}
+
+.port-img:nth-child(even) {
+	margin-right: 40px;
+}
+
+.port-img img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8;
+}
+
+.port-img h2{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+.link-tabs{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -131px;
+    margin-right: -5px;
+    height: 109px;
+    background-color: white;
+  }
